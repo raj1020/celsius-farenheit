@@ -37,7 +37,7 @@ function BoilingVerdict(props) {
     return rounded.toString();
   }
 
-  
+
 
 
   class TemperatureInput extends React.Component {
@@ -52,7 +52,7 @@ function BoilingVerdict(props) {
   
   
       render () {
-          const temperature = this.state.temperature;
+          const temperature = this.props.temperature;
           const scale = this.props.scale
   
   
